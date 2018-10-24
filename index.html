@@ -32,12 +32,13 @@ var person =[{firstName:"jason", lastName:"Todd", nota1:80, nota2:69, nota3:90},
             
               return nota;}	
      
-	 
+	 // creating the table
+	
 	   text = "<center><table style=width:50% border=2><tr><th>Nombre</th><th>Apellido</th>";
 	   text += "<th>nota 1</th><th>nota 2 </th><th>nota 3</th><th>promedio</th><th>Final</th></tr>";
 	   
 	   
-	   
+	   // DISPLAY
 	   for(i=0;i<=2;i++)
 	   {
 	      promedio =pro(Number(person[i].nota1),Number(person[i].nota2), Number(person[i].nota3));
